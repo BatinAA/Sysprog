@@ -13,11 +13,14 @@
 Узнать подробнее о том, как создавать linux kernel modules, можно перейдя по ссылке:
 https://sysprog21.github.io/lkmpg/
 
-To create a kernel module, you can read The Linux Kernel Module Programming Guide. A module can be configured as built-in or loadable. To dynamically load or remove a module, it has to be configured as a loadable module in the kernel configuration (the line related to the module will therefore display the letter M).
+Модуль может быть настроен как встраеваемым, так и загружаемым (устанавливаемым).
 
-To rebuild a kernel module automatically when a new kernel is installed, see Dynamic Kernel Module Support (DKMS).
+Для того чтобы пересобрать kernel module автоматически, когда установлен новый модуль, посмотри Dynamic Kernel Module Support (DKMS).
+
 ## 3dz 
-Character device linux kernel.
+Character device linux kernel. 
+Символьные специальные файлы или символьные устройства обеспечивают небуферизованный прямой доступ к аппаратному устройству. Они не обязательно позволяют программам читать или записывать отдельные символы за раз; это зависит от рассматриваемого устройства.
+
 ##
 ```stl
 solid cube_corner
